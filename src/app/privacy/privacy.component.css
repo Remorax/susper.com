@@ -11,6 +11,10 @@
 .navbar-nav > li > a {
   text-align: left;
 }
+.page-link {
+  padding-right: 0%;
+  color: blue;
+}
 
 .navbar-right {
   border-top:none;
@@ -21,10 +25,6 @@
     margin: -57px 0 0 0
 }
 
-.page-link {
-  padding-right: 0%;
-  color: blue;
-}
 
 .navbar-logo {
     height: 30px;
@@ -48,7 +48,7 @@
 	font-weight: 700;
 	line-height: 1.1;
 	color:#1565C0;
-	text-decoration: none !important;
+	text-decoration: none;
 }
 
 .link:hover {
@@ -89,7 +89,7 @@ h2 {
 
 @media only screen and (max-width: 923px)and (min-width: 768px) {
 	.navbar-brand {
-    margin-left: -27%!important;
+    margin-left: -27%;
 	}
 }
 

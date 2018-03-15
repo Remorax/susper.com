@@ -17,6 +17,10 @@ div a {
   line-height: 40px;
   text-decoration: none;
 }
+.page-link {
+  padding-right: 0%;
+  color: blue;
+}
 
 div a:hover {
   text-decoration: underline;
@@ -41,6 +45,16 @@ div a:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  
+  .footer-bar, .left-side , .right-side {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #fsett {
+    margin-left: 0 !important;
   }
 }
 
